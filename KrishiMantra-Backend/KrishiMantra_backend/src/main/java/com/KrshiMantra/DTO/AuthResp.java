@@ -12,6 +12,7 @@ import lombok.ToString;
 @AllArgsConstructor
 @NoArgsConstructor
 @ToString
+  @Entity
 public class AuthResp {
 private String message;
 private String jwt;
